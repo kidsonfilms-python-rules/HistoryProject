@@ -267,3 +267,13 @@ code {
     margin: 1px;
     padding: 4px;
 }
+
+a {
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    /* text-decoration: underline; */
+}
