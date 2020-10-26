@@ -129,6 +129,7 @@ nav {
   margin-top: -22px;
   padding: 16px;
   color: white;
+  text-shadow: #212121;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -219,6 +220,7 @@ nav {
     text-transform: uppercase;
     letter-spacing: 15px;
     font-size: 50px;
+    z-index: 1000;
 }
 
 .center h2 {
@@ -252,4 +254,16 @@ nav {
     padding: 5px;
     margin: 10px;
     border-radius: 25px;
+}
+
+.bgimg {
+    filter: brightness(50%);
+    z-index: -100;
+}
+
+code {
+    background-color: #1b1d23;
+    color: #de05e6;
+    margin: 1px;
+    padding: 4px;
 }
