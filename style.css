@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     background-color: #212121;
     margin: 0;
@@ -198,4 +199,57 @@ nav {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.page {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+  width: 100%;
+  /* border: 2px dashed #f69c55; */
+}
+.center {
+    display: table-cell;
+  vertical-align: middle;
+}
+
+.center h1 {
+    color: rgb(226,226,226);
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 50px;
+}
+
+.center h2 {
+    color: rgb(226,226,226);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: aliceblue;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    border: 2px solid rgb(56, 56, 56);
+    margin: 5px;
+}
+
+.social-row {
+    background-color: rgb(8, 8, 8);
+    border: 2px solid rgb(56, 56, 56);
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 25px;
 }
